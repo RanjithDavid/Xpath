@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40779" started-at="2020-05-23T06:16:22Z" finished-at="2020-05-23T06:17:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40779" started-at="2020-05-23T06:16:22Z" finished-at="2020-05-23T06:17:03Z">
+      <class name="xpathlearn">
+        <test-method status="PASS" signature="OrangeHRM()[pri:0, instance:xpathlearn@675d3402]" name="OrangeHRM" duration-ms="40755" started-at="2020-05-23T11:46:22Z" finished-at="2020-05-23T11:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHRM -->
+      </class> <!-- xpathlearn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
