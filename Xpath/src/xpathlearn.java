@@ -11,8 +11,8 @@ public class xpathlearn {
 	@Test
 	public void OrangeHRM() {
 		WebDriver driver = new FirefoxDriver();//ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
-
 		driver.findElement(By.xpath("//*[@name='txtUsername']")).sendKeys("Admin");
 		driver.findElement(By.xpath("//*[@name='txtPassword']")).sendKeys("admin123");
 		driver.quit();
